@@ -1,19 +1,23 @@
 [project]
 name = "synosys-styles"
 version = "0.1.0"
-description = "Add your description here"
+description = "Matplotlib styles, fonts, and Wes Anderson-inspired palettes for SynoSys projects."
 readme = "README.md"
 authors = [
-    { name = "Dirk Brockmannn", email = "brockmann.dirk@gmail.com" }
+    { name = "Dirk Brockmann", email = "dirk.brockmann@tu-dresden.de" }
 ]
-requires-python = ">=3.13"
+license = { text = "MIT" }
+requires-python = ">=3.10"
 dependencies = [
     "cycler>=0.12.1",
     "matplotlib>=3.10.8",
 ]
-
-[project.scripts]
-synosys-styles = "synosys_styles:main"
+keywords = ["matplotlib", "plotting", "styles", "visualization", "palette"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
 
 [build-system]
 requires = ["uv_build>=0.9.26,<0.10.0"]
