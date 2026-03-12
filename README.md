@@ -152,7 +152,7 @@ plt.ylabel(r"$P(t)$")
 To work on the package locally:
 
 ```bash
-git clone https://github.com/YOURNAME/synosys-styles.git
+git clone https://github.com/dirkbrockmann/synosys-styles.git
 cd synosys-styles
 uv pip install -e .
 ```
