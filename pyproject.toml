@@ -1,6 +1,6 @@
 [project]
 name = "synosys-styles"
-version = "0.1.0"
+version = "0.1.1"
 description = "Matplotlib styles, fonts, and Wes Anderson-inspired palettes for SynoSys projects."
 readme = "README.md"
 authors = [
