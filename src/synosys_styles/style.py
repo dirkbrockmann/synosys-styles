@@ -2,7 +2,7 @@ import matplotlib as mpl
 from cycler import cycler
 
 from .colors import WES, register_colors
-
+from .colormaps import register_colormaps
 
 def use():
     """
@@ -10,7 +10,7 @@ def use():
     """
 
     register_colors()
-
+    register_colormaps()
     mpl.rcParams["font.family"] = "Arial"
     mpl.rcParams["mathtext.fontset"] = "stix"
     mpl.rcParams["text.usetex"] = False
